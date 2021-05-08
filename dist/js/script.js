@@ -17,3 +17,8 @@ function remove(){
 tabs.forEach(item=>{
     item.addEventListener('click',addBorder);
 })
+
+// Opening new tab with a given link
+const openLink=(link)=>{
+    window.open(link);
+}
